@@ -45,7 +45,7 @@ Data structures
 ### Trees and graphs
 
 - [ ] Heap class
-- [ ] Binary search tree class
+- [x] Binary search tree class
 - [ ] Red black tree class
 - [ ] B+ tree class
 - [ ] Trie class
