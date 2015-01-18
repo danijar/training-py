@@ -1,7 +1,7 @@
 Training Python
 ===============
 
-I use this repository to implement data structures, algorithms and my solutions
+I use this repository to Data structures, algorithms and my solutions
 to programming puzzles.
 
 Data structures
@@ -9,7 +9,7 @@ Data structures
 
 ### Strings and arrays
 
-- [ ] Implement vector class
+- [ ] Vector class
 - [ ] Test for all unique chars
 - [ ] Test for all unique chars in place
 - [ ] Reverse string
@@ -23,7 +23,7 @@ Data structures
 
 ### Linked lists
 
-- [ ] Implement list class
+- [ ] List class
 - [ ] Remove duplicates
 - [ ] Remove duplicates in place
 - [ ] Find nth last element
@@ -33,8 +33,8 @@ Data structures
 
 ### Stacks and queues
 
-- [ ] Implement stack class
-- [ ] Implement queue class
+- [ ] Stack class
+- [ ] Queue class
 - [ ] Three stacks using a single array
 - [ ] Stack that finds min in O(1)
 - [ ] Large stack using sub stacks, allowing pop on main and sub stacks
@@ -44,13 +44,13 @@ Data structures
 
 ### Trees and graphs
 
-- [ ] Implement heap class
-- [ ] Implement binary search tree class
-- [ ] Implement red black tree class
-- [ ] Implement b+ tree class
-- [ ] Implement trie class
-- [x] Implement undirected graph class
-- [ ] Implement directed graph class
+- [ ] Heap class
+- [ ] Binary search tree class
+- [ ] Red black tree class
+- [ ] B+ tree class
+- [ ] Trie class
+- [x] Undirected graph class
+- [ ] Directed graph class
 - [ ] Traverse a tree in depth first order
 - [ ] Traverse a tree in breadth first order using a queue
 - [ ] Check if tree is balanced
@@ -64,8 +64,8 @@ Data structures
 
 ### Hashmaps and sets
 
-- [x] Implement hashmap class
-- [ ] Implement hashset class
+- [x] Hashmap class
+- [ ] Hashset class
 
 Algorithms
 ----------
@@ -110,7 +110,7 @@ Algorithms
 - [x] Of a telephone number find all letter representations from the dial pad
 - [ ] Given n vertex polygon, compute probability of collision of n randomly
       headed walkers starting at the edges
-- [ ] Implement subtraction, multiplication and division using plus operator
+- [ ] Subtraction, multiplication and division using plus operator
       and control flow statements
 - [ ] Find nth smallest number with only prime factors 3, 5 and 7
 
@@ -118,7 +118,7 @@ Algorithms
 
 - [ ] Read and write file
 - [ ] External merge sort
-- [ ] Implement a bloom filter
+- [ ] A bloom filter
 - [ ] Find integer that is not contained in a text file of 4 billion numbers
 
 Concepts
@@ -130,7 +130,7 @@ Concepts
 - [ ] Design a musical juke box
 - [ ] Design a chess game
 - [ ] Design data structures for online book reader system
-- [ ] Implement a jigsaw puzzle and solve it
+- [ ] A jigsaw puzzle and solve it
 
 ### System design
 
