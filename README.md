@@ -49,7 +49,7 @@ Data structures
 - [ ] Implement red black tree class
 - [ ] Implement b+ tree class
 - [ ] Implement trie class
-- [ ] Implement undirected graph class
+- [x] Implement undirected graph class
 - [ ] Implement directed graph class
 - [ ] Traverse a tree in depth first order
 - [ ] Traverse a tree in breadth first order using a queue
