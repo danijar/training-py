@@ -64,7 +64,7 @@ Data structures
 
 ### Hashmaps and sets
 
-- [ ] Implement hashmap class
+- [x] Implement hashmap class
 - [ ] Implement hashset class
 
 Algorithms
