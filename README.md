@@ -80,6 +80,7 @@ Algorithms
 - [ ] Swap every second bit with its predecessor
 - [ ] Find missing number from array of consecutive integers with just
       comparing single bits
+- [x] Murmur hash
 
 ### Recursion
 
