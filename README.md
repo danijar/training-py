@@ -114,6 +114,7 @@ Algorithms
 - [ ] Subtraction, multiplication and division using plus operator
       and control flow statements
 - [ ] Find nth smallest number with only prime factors 3, 5 and 7
+- [x] Count occurences of given digit in all numbers up to n
 
 ### Memory limits
 
