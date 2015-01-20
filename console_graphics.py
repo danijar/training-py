@@ -69,13 +69,38 @@ class Canvas(object):
 			y = start.y + (x / delta.x) * (delta.y)
 			self.pixel(x, y, color)
 
-	def sine(self, offset_x=0, offset_y=None, amplitude=6, stretching=6, color='*'):
-		if offset_y is None:
-			offset_y = amplitude
+	def circle(self, offset, radius=6, color='*'):
+		"""Midpoint circle algorithm"""
+		def pixel(x, y):
+			# Write pixel in all eight octats
+			self.pixel(offset.x + x, offset.y + y, color)
+			self.pixel(offset.x + x, offset.y - y, color)
+			self.pixel(offset.x - x, offset.y + y, color)
+			self.pixel(offset.x - x, offset.y - y, color)
+			self.pixel(offset.x + y, offset.y + x, color)
+			self.pixel(offset.x + y, offset.y - x, color)
+			self.pixel(offset.x - y, offset.y + x, color)
+			self.pixel(offset.x - y, offset.y - x, color)
+		# Initialization
+		point = Point(0, radius)
+		error = 1 - radius
+		# Draw first octat of circle
+		while point.x < point.y:
+			pixel(point.x, point.y)
+			if error < 0:
+				error += 2 * point.x + 1
+			else:
+				error += 2 * point.x - 2 * point.y + 1
+				point.y -= 1
+			point.x += 1
+
+	def sine(self, offset=None, amplitude=6, stretching=6, color='*'):
+		if offset is None:
+			offset = Point(0, amplitude)
 		last_y = None
 		for x in range(self._surface._width):
-			y = math.sin((x + offset_x) / stretching) * amplitude
-			y += offset_y
+			y = math.sin((x + offset.x) / stretching) * amplitude
+			y += offset.y
 			y = int(y + 0.5)
 			if not last_y or y == last_y:
 				self.pixel(x, y, color)
@@ -94,10 +119,11 @@ if __name__ == '__main__':
 	while True:
 		# Update parameters
 		scroll += 1
-		scale = math.sin(scroll / 10)
+		scale = 0.5 + abs(0.5 * math.sin(scroll / 3))
 		# Render and display
 		surface.clear()
-		canvas.line(Point(2, 3), Point(70, 18), '.')
-		canvas.sine(offset_x=1*scroll, offset_y=10, amplitude=6*scale, stretching=4)
+		canvas.line(Point(2, 3), Point(70, 18), color='-')
+		canvas.sine(Point(1*scroll,10), amplitude=6*scale, stretching=4, color='.')
+		canvas.circle(Point(10, 10), 7, color='*')
 		surface.display()
 		time.sleep(0.2)
