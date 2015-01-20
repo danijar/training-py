@@ -116,6 +116,10 @@ Algorithms
 - [ ] Find nth smallest number with only prime factors 3, 5 and 7
 - [x] Count occurences of given digit in all numbers up to n
 
+### Graphics
+
+- [x] Draw animated sine wave in console
+
 ### Memory limits
 
 - [ ] Read and write file
