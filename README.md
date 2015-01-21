@@ -23,13 +23,13 @@ Data structures
 
 ### Linked lists
 
-- [ ] List class
+- [x] List class
 - [ ] Remove duplicates
 - [ ] Remove duplicates in place
 - [ ] Find nth last element
-- [ ] Remove node given only its pointer
+- [x] Remove node given only its object
 - [ ] Sum linked lists with one digit per node
-- [ ] Find beginning of circle
+- [x] Find beginning of circle
 
 ### Stacks and queues
 
