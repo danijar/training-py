@@ -140,7 +140,7 @@ Concepts
 
 ### System design
 
-- [ ] Thread pool
+- [x] Thread pool
 - [ ] Data structure for large friend network
 - [ ] Design web crawler and avoid infinite loops
 - [ ] Write chat server and client
