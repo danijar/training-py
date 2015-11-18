@@ -1,4 +1,4 @@
-from print_ascii_tree import Node, example_tree
+from tree_print import Node, example_tree
 
 
 def traverse(root):
