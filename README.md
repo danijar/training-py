@@ -26,7 +26,7 @@ Data structures
 - [x] List class
 - [ ] Remove duplicates
 - [ ] Remove duplicates in place
-- [ ] Find nth last element
+- [x] Find nth last element
 - [x] Remove node given only its object
 - [ ] Sum linked lists with one digit per node
 - [x] Find beginning of circle

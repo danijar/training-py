@@ -1,4 +1,4 @@
-from tree_print import Node, example_tree
+from tree import Node, example_tree
 
 
 def traverse_depth_first(root):
