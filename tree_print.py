@@ -34,7 +34,6 @@ class Node:
                 line += ' '
             print(line)
 
-
     def levels(self):
         depth = self.depth()
         queue = [(self, 0)]

@@ -51,8 +51,9 @@ Data structures
 - [ ] Trie class
 - [x] Undirected graph class
 - [ ] Directed graph class
-- [ ] Traverse a tree in depth first order
-- [ ] Traverse a tree in breadth first order using a queue
+- [x] Traverse a tree in depth first order
+- [x] Traverse a tree in breadth first order using a queue
+- [x] Traverse a tree in order using constant space
 - [ ] Check if tree is balanced
 - [ ] Check if two nodes are connected in directed graph
 - [ ] Create balanced binary tree from sorted array
