@@ -5,7 +5,7 @@ class Element:
 
     def __init__(self, next=None, value=None):
         self.next = next
-        self.value = value or random.randint(1, 10)
+        self.value = value or random.randint(1, 9)
 
     def __iter__(self):
         current = self

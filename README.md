@@ -28,7 +28,7 @@ Data structures
 - [ ] Remove duplicates in place
 - [x] Find nth last element
 - [x] Remove node given only its object
-- [ ] Sum linked lists with one digit per node
+- [x] Sum linked lists with one digit per node
 - [x] Find beginning of circle
 
 ### Stacks and queues
