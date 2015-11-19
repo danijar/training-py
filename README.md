@@ -24,8 +24,7 @@ Data structures
 ### Linked lists
 
 - [x] List class
-- [ ] Remove duplicates
-- [ ] Remove duplicates in place
+- [x] Remove duplicates
 - [x] Find nth last element
 - [x] Remove node given only its object
 - [x] Sum linked lists with one digit per node
