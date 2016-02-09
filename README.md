@@ -9,7 +9,7 @@ Data structures
 
 ### Strings and arrays
 
-- [ ] Vector class
+- [ ] Dynamic array class
 - [ ] Test for all unique chars
 - [ ] Test for all unique chars in place
 - [ ] Reverse string
@@ -49,10 +49,10 @@ Data structures
 - [ ] B+ tree class
 - [ ] Trie class
 - [x] Undirected graph class
-- [ ] Directed graph class
 - [x] Traverse a tree in depth first order
 - [x] Traverse a tree in breadth first order using a queue
 - [x] Traverse a tree in order using constant space
+- [x] Directed graph class
 - [ ] Check if tree is balanced
 - [ ] Check if two nodes are connected in directed graph
 - [ ] Create balanced binary tree from sorted array
@@ -84,7 +84,6 @@ Algorithms
 
 ### Recursion
 
-- [ ] Fibonacci number
 - [ ] Count paths on grid with obstacles from top left to bottom right
 - [ ] Find all permutations of a string
 - [ ] Find all sub sets of a set
